@@ -87,19 +87,6 @@ namespace GeneratingNeuralNetwork
 			return 0f; // empty
 		}
 
-		public void ThinkFastGPU()
-		{
-			if (!isAlive)
-				return;
-			
-			neurons = new float[neurons.Length];
-			outputs = new float[outputs.Length];
-
-			
-
-			return;
-		}
-
 		public void ThinkFast()
 		{
 			if (!isAlive)
